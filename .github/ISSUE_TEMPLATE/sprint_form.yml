@@ -1,0 +1,44 @@
+name: Sprint
+description: Planejar e acompanhar uma sprint do projeto
+labels: ["sprint"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use este template para planejar uma sprint do projeto. Indique o número ou nome da sprint no título da issue (ex. "Sprint 01").
+  - type: textarea
+    id: objetivo
+    attributes:
+      label: Objetivo da Sprint
+      description: Descreva o objetivo principal a ser alcançado nesta sprint.
+      placeholder: Descreva o objetivo da sprint aqui...
+    validations:
+      required: true
+  - type: textarea
+    id: backlog
+    attributes:
+      label: Backlog da Sprint
+      description: Liste os itens/tarefas planejados para esta sprint. Referencie as issues de task relacionadas, quando existirem (ex. #12).
+      placeholder: |
+        - [ ] Tarefa 1 (#issue)
+        - [ ] Tarefa 2 (#issue)
+    validations:
+      required: true
+  - type: textarea
+    id: definition-of-done
+    attributes:
+      label: Definition of Done
+      description: Descreva os critérios que precisam ser cumpridos para considerar esta sprint concluída.
+      placeholder: |
+        1. Critério 1 ...
+        2. Critério 2 ...
+    validations:
+      required: true
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Código de Conduta
+      description: Ao enviar esta issue, você concorda em seguir nosso [Código de Conduta](../blob/master/CODE_OF_CONDUCT.md)
+      options:
+        - label: Concordo em seguir o Código de Conduta deste projeto
+          required: true

@@ -1,0 +1,70 @@
+name: Checklist de Entrega - Entrega 01
+description: Checklist dos itens obrigatórios da Entrega 01, por subequipe
+labels: ["checklist", "entrega-01"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use este template para acompanhar, por subequipe, o cumprimento dos itens exigidos na Entrega 01 (Desenho de Software - Base), conforme docs/Base/1.Base.md.
+  - type: dropdown
+    id: subequipe
+    attributes:
+      label: Subequipe
+      description: Selecione a subequipe referente a este checklist.
+      options:
+        - SubEquipe_01
+        - SubEquipe_02
+        - SubEquipe_03
+    validations:
+      required: true
+  - type: checkboxes
+    id: itens-minimos
+    attributes:
+      label: Entrega mínima
+      description: Itens mínimos exigidos pela Entrega 01.
+      options:
+        - label: Artefato generalista elaborado (Rich Picture ou Mapa Mental)
+          required: false
+        - label: SIG na notação do NFR Framework elaborado
+          required: false
+        - label: Modelo BPMN do fluxo do software (Engenharia Reversa) elaborado
+          required: false
+        - label: Pontos de vista de cada membro sobre lições aprendidas e uso de IA Generativa registrados
+          required: false
+        - label: Quadro de participações/contribuições da subequipe preenchido (1.2.ParticipacoesBase.md)
+          required: false
+        - label: Relatório da subequipe documentado no GitPages (1.1.x.SubEquipe_0X.md)
+          required: false
+    validations:
+      required: false
+  - type: checkboxes
+    id: itens-mencao-superior
+    attributes:
+      label: Itens para menção superior (opcionais)
+      description: Itens que ajudam a alcançar uma menção superior à mínima.
+      options:
+        - label: Cada artefato e decisão embasados na literatura, com referências claras
+          required: false
+        - label: Rastros claros do trabalho em equipe (ex. atas de reunião, vídeos de reuniões)
+          required: false
+        - label: Práticas metodológicas evidenciadas (ex. reuniões periódicas, checklists, debates)
+          required: false
+        - label: Pontos de vista reportados de forma fundamentada, clara e com senso crítico
+          required: false
+    validations:
+      required: false
+  - type: textarea
+    id: observacoes
+    attributes:
+      label: Observações adicionais
+      description: Informações adicionais relevantes sobre o andamento da entrega desta subequipe.
+    validations:
+      required: false
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Código de Conduta
+      description: Ao enviar esta issue, você concorda em seguir nosso [Código de Conduta](../blob/master/CODE_OF_CONDUCT.md)
+      options:
+        - label: Concordo em seguir o Código de Conduta deste projeto
+          required: true

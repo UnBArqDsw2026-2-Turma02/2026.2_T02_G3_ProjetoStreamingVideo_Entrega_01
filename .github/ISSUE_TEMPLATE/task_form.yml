@@ -1,0 +1,72 @@
+name: Task
+description: Registrar uma tarefa a ser executada por uma subequipe
+labels: ["task"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use este template para abrir uma tarefa (task) a ser executada por uma subequipe do projeto.
+  - type: dropdown
+    id: subequipe
+    attributes:
+      label: Subequipe responsável
+      description: Selecione a subequipe responsável pela execução desta tarefa.
+      options:
+        - SubEquipe_01
+        - SubEquipe_02
+        - SubEquipe_03
+    validations:
+      required: true
+  - type: input
+    id: responsavel
+    attributes:
+      label: Responsável(is)
+      description: Nome(s) do(s) membro(s) responsável(is) pela execução da tarefa.
+      placeholder: ex. Fulano, Beltrano
+    validations:
+      required: false
+  - type: textarea
+    id: descricao
+    attributes:
+      label: Descrição da tarefa
+      description: Descreva claramente o que precisa ser feito.
+      placeholder: Descreva a tarefa aqui...
+    validations:
+      required: true
+  - type: textarea
+    id: criterios-aceitacao
+    attributes:
+      label: Critérios de aceitação
+      description: Descreva o que precisa ser cumprido para considerar a tarefa concluída.
+      placeholder: |
+        1. Critério 1 ...
+        2. Critério 2 ...
+    validations:
+      required: true
+  - type: dropdown
+    id: prioridade
+    attributes:
+      label: Prioridade
+      description: Qual a prioridade desta tarefa?
+      options:
+        - Alta
+        - Média
+        - Baixa
+    validations:
+      required: true
+  - type: input
+    id: entrega-relacionada
+    attributes:
+      label: Entrega relacionada
+      description: A qual entrega esta tarefa está associada?
+      placeholder: ex. Entrega 01
+    validations:
+      required: false
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Código de Conduta
+      description: Ao enviar esta issue, você concorda em seguir nosso [Código de Conduta](../blob/master/CODE_OF_CONDUCT.md)
+      options:
+        - label: Concordo em seguir o Código de Conduta deste projeto
+          required: true
