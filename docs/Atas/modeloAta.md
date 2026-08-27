@@ -4,7 +4,7 @@
 
 | Data | Horário de inicio e fim | Local | Redator |
 | :-: | :-: | :-: | :-: |
-| XX/XX/2026 | XX:XX - XX:XX | Plataforma Teams | [NOME](https://github.com/Yanmatheus0812) |
+| XX/XX/2026 | XX:XX - XX:XX | Plataforma Teams | [NOME](https://github.com/) |
 
 
 <figcaption align="center">Tabela 1: Dados da reunião.</figcaption>
