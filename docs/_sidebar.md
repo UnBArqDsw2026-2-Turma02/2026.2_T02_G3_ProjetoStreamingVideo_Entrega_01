@@ -1,13 +1,19 @@
 <!-- docs/_sidebar.md -->
 
-- [Home](/docs)
-- [Projetos](/docs/Projeto/Projeto.md)
+- [Home](README.md)
 
-- **Base**
-  - [1. Desenho de Software (Base)](/docs/Base/1.Base.md)
+- Base
+  - [1. Desenho de Software (Base)](Base/1.Base.md)
+  
   - Relatórios
-      - [1.1.1. SubEquipe_01](/docs/Base/Relatórios/1.1.1.SubEquipe_01.md)
-      - [1.1.2. SubEquipe_02](/docs/Base/Relatórios/1.1.2.SubEquipe_02.md)
-      - [1.1.3. SubEquipe_03](/docs/Base/Relatórios/1.1.3.SubEquipe_03.md)
-  - [1.2. Participações - Base](/docs/Base/1.2.ParticipacoesBase.md)
-  - [1.3. Iniciativas Extras - Base](/docs/Base/1.3.IniciativasExtras.md)
+    - [1.1. SubEquipe_01](Base/Relatórios/1.1.1.SubEquipe_01.md)
+    - 1.2. SubEquipe_02:
+      - [Rich Picture](Base/Relatórios/1.2.SubEquipe_02/richpicture.md)
+      - [NFR Framework](Base/Relatórios/1.2.SubEquipe_02/nfrframework.md)
+      - [Engenharia Reversa](Base/Relatórios/1.2.SubEquipe_02/Engenharia_reversa.md)
+      - [Modelagem BPMN](Base/Relatórios/1.2.SubEquipe_02/modelagem_bpmn.md)
+      - [Lições Aprendidas e IA Generativa](Base/Relatórios/1.2.SubEquipe_02/IA_generativa.md)
+    - [1.3. SubEquipe_03](Base/Relatórios/1.1.3.SubEquipe_03.md)
+  - [Participações - Base](Base/1.2.ParticipacoesBase.md)
+  - 3. Iniciativas Extras - Base
+     - [Ferramentas](Base/1.3.IniciativasExtras/Ferramentas.md)
