@@ -252,7 +252,7 @@ A pool foi dividida entre **Usuário** e **Sistema**, permitindo visualizar a al
 
 > **PEERTUBE.** Watch, share, download a video — PeerTube documentation. Disponível em: [https://docs.joinpeertube.org/use/watch-video](https://docs.joinpeertube.org/use/watch-video). Acesso em: 27 ago. 2026.
 
-> **G3.** Relatório de Engenharia Reversa do Frontend do PeerTube. Disponível em: [Engenharia Reversa do Frontend do PeerTube](./Engenharia_reversa.md). Acesso em: 27 ago. 2026.
+> **G3.** Relatório de Engenharia Reversa do Frontend do PeerTube. Disponível em: [Engenharia Reversa do Frontend do PeerTube](/Base/Relatórios/1.2.SubEquipe_02/Engenharia_reversa.md). Acesso em: 27 ago. 2026.
 
 ---
 

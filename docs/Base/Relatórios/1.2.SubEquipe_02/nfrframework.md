@@ -2,7 +2,7 @@
 
 ## Introdução
 
-O NFR Framework é um framework conceitual voltado à condução da Engenharia de Requisitos orientada aos requisitos não funcionais (NFRs), no qual esses requisitos passam a ser tratados como cidadãos de primeira ordem do processo de modelagem, e não mais como restrições secundárias aos requisitos funcionais<a id="anchor_2" href="#REF2">[2]</a>. Nele, um requisito não funcional é representado como um *softgoal*: uma meta cujo critério de satisfação não é precisamente definido, sendo avaliada por aproximação (satisfeita ou não satisfeita), a partir das evidências reunidas ao longo da análise<a id="anchor_2" href="#REF2">[2]</a>.
+O NFR Framework é um framework conceitual voltado à condução da Engenharia de Requisitos orientada aos requisitos não funcionais (NFRs), no qual esses requisitos passam a ser tratados como cidadãos de primeira ordem do processo de modelagem, e não mais como restrições secundárias aos requisitos funcionais<a id="anchor_2" href="#/Base/Relatórios/1.2.SubEquipe_02/nfrframework?id=REF2">[2]</a>. Nele, um requisito não funcional é representado como um *softgoal*: uma meta cujo critério de satisfação não é precisamente definido, sendo avaliada por aproximação (satisfeita ou não satisfeita), a partir das evidências reunidas ao longo da análise<a id="anchor_2" href="#/Base/Relatórios/1.2.SubEquipe_02/nfrframework?id=REF2">[2]</a>.
 
 Para representar e analisar esses softgoals e como eles se relacionam entre si, o NFR Framework utiliza o **Softgoal Interdependency Graph (SIG)**. Na Streaming de Vídeo, esse recurso foi usado pela SubEquipe_02 para modelar três critérios de qualidade do sistema, Usabilidade, Performance e Segurança, decompondo-os em subcaracterísticas mais concretas e avaliando o impacto das soluções de operacionalização propostas sobre cada um deles.
 
@@ -56,11 +56,11 @@ Link da apresentação: [NFR Framework](https://youtu.be/38vXSG_EEpw)
 
 ## Softgoal Interdependency Graph
 
-O Softgoal Interdependency Graph (SIG) é o modelo gráfico utilizado pelo NFR Framework para registrar o posicionamento da equipe de desenvolvimento sobre os softgoals de um sistema, explicitando suas interdependências de forma visual e concisa<a id="anchor_2b" href="#REF2">[2]</a>.
+O Softgoal Interdependency Graph (SIG) é o modelo gráfico utilizado pelo NFR Framework para registrar o posicionamento da equipe de desenvolvimento sobre os softgoals de um sistema, explicitando suas interdependências de forma visual e concisa<a id="anchor_2b" href="#/Base/Relatórios/1.2.SubEquipe_02/nfrframework?id=REF2">[2]</a>.
 
 ### Tipos de Softgoal
 
-Para compreender o SIG, é necessário distinguir os três tipos de softgoal que compõem o grafo<a id="anchor_1" href="#REF1">[1]</a>:
+Para compreender o SIG, é necessário distinguir os três tipos de softgoal que compõem o grafo<a id="anchor_1" href="#/Base/Relatórios/1.2.SubEquipe_02/nfrframework?id=REF1">[1]</a>:
 
 - **NFR Softgoal**: representa a característica abstrata que se deseja avaliar (o próprio requisito não funcional), cujo critério de satisfação é impreciso e só é resolvido ao final da análise. É representado pela nuvem "em branco", sem preenchimento.
 - **Operationalizing Softgoal (Softgoal de Operacionalização)**: representa a forma concreta de viabilizar (ou não) as características abstratas descritas pelos NFR Softgoals; no fundo, tratam-se de funcionalidades ou decisões de projeto. Correspondem aos nós-folha do SIG.
@@ -74,7 +74,7 @@ As interdependências definem como os softgoals se relacionam entre si dentro do
 
 #### Decomposições
 
-As decomposições podem ocorrer em qualquer nível de abstração do grafo, subdividindo um softgoal em softgoals mais específicos<a id="anchor_1b" href="#REF1">[1]</a>:
+As decomposições podem ocorrer em qualquer nível de abstração do grafo, subdividindo um softgoal em softgoals mais específicos<a id="anchor_1b" href="#/Base/Relatórios/1.2.SubEquipe_02/nfrframework?id=REF1">[1]</a>:
 
 - **Decomposição NFR**: divide um softgoal mais abrangente em partes menores, reduzindo ambiguidades e facilitando sua priorização — é o tipo de decomposição empregado nos três SIGs do projeto (ex.: Usabilidade → Interface + Acessibilidade; Performance → Tempo de Resposta + Latência de Transmissão ao Vivo + Escalabilidade e Concorrência; Segurança → Autenticação + Autorização + Proteção contra Requisições Excessivas + Integridade dos Dados + Validação de Entradas).
 - **Decomposição de Operacionalização**: refina uma solução geral em soluções mais específicas de implementação.
@@ -85,7 +85,7 @@ Nos SIGs do projeto, os softgoals-filhos conectam-se ao softgoal-pai por meio de
 
 #### Contribuições
 
-Como os softgoals se especializam progressivamente ao longo do SIG, um softgoal derivado pode contribuir de forma integral ou parcial, positiva ou negativa, para o softgoal do qual derivou. Os tipos de contribuição são<a id="anchor_2c" href="#REF2">[2]</a>:
+Como os softgoals se especializam progressivamente ao longo do SIG, um softgoal derivado pode contribuir de forma integral ou parcial, positiva ou negativa, para o softgoal do qual derivou. Os tipos de contribuição são<a id="anchor_2c" href="#/Base/Relatórios/1.2.SubEquipe_02/nfrframework?id=REF2">[2]</a>:
 
 - **AND**: o softgoal-pai só é satisfeito se todos os softgoals-filhos forem satisfeitos.
 - **OR**: o softgoal-pai é satisfeito se ao menos um dos softgoals-filhos for satisfeito.
@@ -101,7 +101,7 @@ No SIG de Performance, por exemplo, as contribuições "Atraso menor que 3 segun
 
 #### Propagação de Impactos
 
-A propagação de impactos consiste em identificar as relações de dependência entre os requisitos não funcionais e analisar como a satisfação (ou negação) de um softgoal se propaga para os softgoals dos quais ele deriva, apoiando decisões informadas sobre trade-offs entre requisitos concorrentes<a id="anchor_2d" href="#REF2">[2]</a>. Os rótulos de impacto utilizados são<a id="anchor_2e" href="#REF2">[2]</a>:
+A propagação de impactos consiste em identificar as relações de dependência entre os requisitos não funcionais e analisar como a satisfação (ou negação) de um softgoal se propaga para os softgoals dos quais ele deriva, apoiando decisões informadas sobre trade-offs entre requisitos concorrentes<a id="anchor_2d" href="#/Base/Relatórios/1.2.SubEquipe_02/nfrframework?id=REF2">[2]</a>. Os rótulos de impacto utilizados são<a id="anchor_2e" href="#/Base/Relatórios/1.2.SubEquipe_02/nfrframework?id=REF2">[2]</a>:
 
 - **✓ (satisfeito)**: o requisito não funcional contribui de forma suficiente para a satisfação do softgoal.
 - **𝒲+ (fracamente satisfeito)**: há indícios positivos de satisfação, porém mais fracos que os do rótulo ✓.
@@ -164,7 +164,7 @@ O SIG de Segurança decompõe o softgoal em cinco subcaracterísticas: Autentica
 
 ## Metodologia e Ferramentas
 
-O Draw.io foi a ferramenta escolhida para a modelagem dos SIGs de Usabilidade, Performance e Segurança, seguindo a notação de nuvens (softgoals), arcos de decomposição e links de contribuição do NFR Framework, conforme apresentado no material de referência da disciplina<a id="anchor_2f" href="#REF2">[2]</a>.
+O Draw.io foi a ferramenta escolhida para a modelagem dos SIGs de Usabilidade, Performance e Segurança, seguindo a notação de nuvens (softgoals), arcos de decomposição e links de contribuição do NFR Framework, conforme apresentado no material de referência da disciplina<a id="anchor_2f" href="#/Base/Relatórios/1.2.SubEquipe_02/nfrframework?id=REF2">[2]</a>.
 
 ## Referências Bibliográficas
 

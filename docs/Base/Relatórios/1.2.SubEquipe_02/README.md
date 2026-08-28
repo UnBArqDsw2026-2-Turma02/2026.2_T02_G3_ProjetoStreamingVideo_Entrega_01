@@ -14,23 +14,23 @@ Os artefatos específicos foram mantidos em páginas separadas para facilitar a 
 
 ### FOCO 01 — Artefatos Generalistas & NFR Framework
 
-- [Rich Picture](richpicture.md)
-- [NFR Framework](nfrframework.md)
+- [Rich Picture](/Base/Relatórios/1.2.SubEquipe_02/richpicture.md)
+- [NFR Framework](/Base/Relatórios/1.2.SubEquipe_02/nfrframework.md)
 
 ### FOCO 02 — Engenharia Reversa & Modelagem BPMN
 
-- [Engenharia Reversa](Engenharia_reversa.md)
-- [Modelagem BPMN](modelagem_bpmn.md)
+- [Engenharia Reversa](/Base/Relatórios/1.2.SubEquipe_02/Engenharia_reversa.md)
+- [Modelagem BPMN](/Base/Relatórios/1.2.SubEquipe_02/modelagem_bpmn.md)
 
 ### FOCO 03 — IA Generativa
 
-- [Reflexões sobre IA Generativa](IA_generativa.md)
+- [Reflexões sobre IA Generativa](/Base/Relatórios/1.2.SubEquipe_02/IA_generativa.md)
 
 ## Relatório da SubEquipe
 
 O relatório principal consolida os focos da entrega, participantes, metodologia, decisões tomadas, versionamentos e relações entre os artefatos.
 
-- [Relatório completo da SubEquipe 02](1.1.2.SubEquipe_02.md)
+- [Relatório completo da SubEquipe 02](/Base/Relatórios/1.2.SubEquipe_02/1.1.2.SubEquipe_02.md)
 
 ## Organização da Documentação
 
