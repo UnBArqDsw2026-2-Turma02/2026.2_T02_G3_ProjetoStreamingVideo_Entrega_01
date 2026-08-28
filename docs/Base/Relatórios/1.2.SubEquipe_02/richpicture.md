@@ -24,51 +24,13 @@ Conforme aponta Revadi (2018, p. 4), a estruturação das Rich Pictures baseia-s
 
 ## Participação
 
-A seguir temos a tabela 1, onde indica todos os participantes da criação do Rich picture, o horário e sua contribuição.
+O registro em vídeo da reunião de desenvolvimento do Rich Picture, que atesta a colaboração integral dos integrantes da subequipe 2, encontra-se disponível no link abaixo:
 
-<div align="center">
-  <table>
-    <thead>
-      <tr>
-        <th>Nome</th>
-        <th>Data</th>
-        <th>Participação</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a href=""></a></td>
-        <td>26/08/2026</td>
-        <td>Criação do rich picture</td>
-         </tr>
-      <tr>
-        <tr>
-        <td><a href=""></a></td>
-         <td>26/08/2026</td>
-        <td>Criação do rich picture</td>
-      </tr>
-      <tr>
-        <td><a href=""></a></td>
-         <td>26/08/2026</td>
-        <td>Criação do rich picture</td>
-      </tr>
-      <tr>
-        <td><a href=""></a></td>
-         <td>26/08/2026</td>
-        <td>Criação do rich picture</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
-
-Tabela 1: Participantes
-
-
-Link da reunião: [Link](https://youtu.be/Xbt89ENsTKw?is=u0kmqtoE0sZH0EPy)
+Link da reunião: [Acessar gravação](https://youtu.be/Xbt89ENsTKw?is=u0kmqtoE0sZH0EPy)
 
 ## Bibliografia
 
-> MONK, Andrew; HOWARD, Steve. **The Rich Picture**: A Tool for Reasoning About Work Context.  Disponível em: [https://ics.uci.edu/~wscacchi/Software-Process/Readings/RichPicture.pdf](https://ics.uci.edu/~wscacchi/Software-Process/Readings/RichPicture.pdf). Acesso em: 3 abr. 2026.
+> MONK, Andrew; HOWARD, Steve. **The Rich Picture**: A Tool for Reasoning About Work Context.  Disponível em: [https://ics.uci.edu/~wscacchi/Software-Process/Readings/RichPicture.pdf](https://ics.uci.edu/~wscacchi/Software-Process/Readings/RichPicture.pdf). Acesso em: 26 abr. 2026.
 
 > David Benyon. Interação Humano-Computador. São Paulo, v2.0, Pearson Prentice Hall, 2011. "Software requirements", Breakdown topics for software requirements, Capítulo Software Development Project, Introducing Rich Pictures
 
