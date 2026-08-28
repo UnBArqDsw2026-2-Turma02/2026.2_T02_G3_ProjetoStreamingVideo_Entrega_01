@@ -1,13 +1,8 @@
 <!-- docs/_sidebar.md -->
 
 - [Home](README.md)
-- [Projetos](Projeto/Projeto.md)
 
-<!-- docs/_sidebar.md -->
-
-- [Home](README.md)   
-
-Base
+- Base
   - [1. Desenho de Software (Base)](Base/1.Base.md)
   
   - Relatórios
