@@ -179,7 +179,7 @@ Após o registro, o usuário decide se deseja fazer outra interação:
 
 **Figura 1 - BPMN do fluxo Pesquisar e Assistir a um Vídeo no PeerTube** <br>
 
-![BPMN - Pesquisar e Assistir a um Vídeo no PeerTube](../../assets/BPMN.jpg)
+![BPMN - Pesquisar e Assistir a um Vídeo no PeerTube](../../../assets/BPMN.jpg)
 
 <font size="2">
 Autor(es):<a href="https://github.com/dev-LucasDpaula">Lucas Oliveira</a>, <a href="https://github.com/menali17">Enzo Menali</a>, <a href="https://github.com/gpaulovit">Paulo Vitor</a> e <a href="https://github.com/GeovannaUmbelino">Geovanna Umbelino</a>
