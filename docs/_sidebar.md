@@ -8,6 +8,7 @@
   - Relatórios
     - [1.1. SubEquipe_01](Base/Relatórios/1.1.1.SubEquipe_01.md)
     - 1.2. SubEquipe_02:
+      - [Relatório da Equipe](1.1.2.SubEquipe_02.md)
       - [Rich Picture](Base/Relatórios/1.2.SubEquipe_02/richpicture.md)
       - [NFR Framework](Base/Relatórios/1.2.SubEquipe_02/nfrframework.md)
       - [Engenharia Reversa](Base/Relatórios/1.2.SubEquipe_02/Engenharia_reversa.md)
