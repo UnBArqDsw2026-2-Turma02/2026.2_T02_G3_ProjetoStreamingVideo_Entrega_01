@@ -16,7 +16,7 @@ Para garantir a eficiência e a colaboração da equipe, utilizamos diferentes f
 | <img src="../../assets/unnamed.webp" alt="Gemini" width="75" /> | [Gemini](https://gemini.google.com/app?hl=pt-BR) | Ferramenta de suporte na busca por respostas e soluções. |
 | <img src="../../assets/Google_Forms_Logo_512px.webp" alt="Google Formulários" width="55" /> | [Google Formulários](https://docs.google.com/forms/u/0/) | Ferramenta para elaboração de formulários. |
 
-_Tabela 1_: Tabela de Ferramentas utilizadas. Fonte: 
+_Tabela 1_: Tabela de Ferramentas utilizadas. Fonte: Autoria de [Enzo Menali](https://github.com/menali17), [Geovanna Umbelino](https://github.com/GeovannaUmbelino), [Lucas Oliveira](https://github.com/dev-LucasDpaula) e [Paulo Vitor Gomes](https://github.com/gpaulovit).  
 
 
 
