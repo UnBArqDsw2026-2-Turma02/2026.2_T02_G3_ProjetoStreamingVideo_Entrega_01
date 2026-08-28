@@ -226,7 +226,7 @@ A pool foi dividida entre **Usuário** e **Sistema**, permitindo visualizar a al
 
 ## Quadro de Colaboração do BPMN
 
-<p style="text-align:center"><a>Tabela 1:</a> Quadro de colaboração do BPMN</p>
+
 
 | **Aluno** | **Participação** |
 |---|---|
@@ -234,6 +234,8 @@ A pool foi dividida entre **Usuário** e **Sistema**, permitindo visualizar a al
 | [Enzo Menali](https://github.com/menali17) | Modelagem do **fluxo de pesquisa e refinamento dos resultados**, incluindo pesquisa, exibição dos resultados, decisão sobre aplicação de filtros e definição dos filtros. Auxílio na revisão dos gateways. |
 | [Paulo Vitor](https://github.com/gpaulovit) | Modelagem do **fluxo de seleção e reprodução do vídeo**, incluindo seleção do conteúdo, carregamento, verificação de sucesso, início da reprodução e tratamento do caminho de erro/seleção de outro vídeo. Auxílio na revisão das atividades do sistema. |
 | [Geovanna Umbelino](https://github.com/GeovannaUmbelino) | Modelagem do **fluxo de interação com o conteúdo**, incluindo decisão de interação, compartilhamento, reação, comentário, inscrição no canal, verificação de autenticação, registro da interação e decisão sobre novas interações. Auxílio na revisão final do diagrama. |
+
+<p style="text-align:center"><a>Tabela 1:</a> Quadro de colaboração do BPMN</p>
 
 <p align="center"><b>Fonte: </b><a href="https://github.com/dev-LucasDpaula">Lucas Oliveira</a></p>
 
