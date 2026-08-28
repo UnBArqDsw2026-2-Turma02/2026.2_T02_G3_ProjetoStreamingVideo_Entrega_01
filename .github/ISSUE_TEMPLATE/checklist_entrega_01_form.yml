@@ -60,11 +60,3 @@ body:
       description: Informações adicionais relevantes sobre o andamento da entrega desta subequipe.
     validations:
       required: false
-  - type: checkboxes
-    id: terms
-    attributes:
-      label: Código de Conduta
-      description: Ao enviar esta issue, você concorda em seguir nosso [Código de Conduta](../blob/master/CODE_OF_CONDUCT.md)
-      options:
-        - label: Concordo em seguir o Código de Conduta deste projeto
-          required: true

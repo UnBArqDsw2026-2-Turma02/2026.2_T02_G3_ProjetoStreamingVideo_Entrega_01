@@ -9,6 +9,7 @@ Base
     - 1.1. SubEquipe_01:
     - 1.2. SubEquipe_02:
       - [Rich Picture](Base/Relatórios/1.2.SubEquipe_02/richpicture.md)
+      - [NFR Framework](Base/Relatórios/1.2.SubEquipe_02/nfrframework.md)
       - [Engenharia Reversa](Base/Relatórios/1.2.SubEquipe_02/Engenharia_reversa.md)
     - 1.3. SubEquipe_03
   - [2. Participações - Base](Base/1.2.ParticipacoesBase.md)
