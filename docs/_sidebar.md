@@ -6,7 +6,7 @@
   - [1. Desenho de Software (Base)](Base/1.Base.md)
   
   - Relatórios
-    - [1.1. SubEquipe_01](Base/Relatórios/1.1.1.SubEquipe_01.md)
+    - [1.1. SubEquipe_01](Base/Relatórios/1.1.1.SubEquipe_01/1.1.1.SubEquipe_01.md)
     - 1.2. SubEquipe_02:
       - [Relatório da Equipe](Base/Relatórios/1.2.SubEquipe_02/1.1.2.SubEquipe_02.md)
       - [Rich Picture](Base/Relatórios/1.2.SubEquipe_02/richpicture.md)
@@ -14,7 +14,7 @@
       - [Engenharia Reversa](Base/Relatórios/1.2.SubEquipe_02/Engenharia_reversa.md)
       - [Modelagem BPMN](Base/Relatórios/1.2.SubEquipe_02/modelagem_bpmn.md)
       - [Lições Aprendidas e IA Generativa](Base/Relatórios/1.2.SubEquipe_02/IA_generativa.md)
-    - [1.3. SubEquipe_03](Base/Relatórios/1.1.3.SubEquipe_03.md)
+    - [1.3. SubEquipe_03](Base/Relatórios/1.1.3.SubEquipe_03/1.1.3.SubEquipe_03.md)
   - [Participações - Base](Base/1.2.ParticipacoesBase.md)
   - 3. Iniciativas Extras - Base
      - [Ferramentas](Base/1.3.IniciativasExtras/Ferramentas.md)
