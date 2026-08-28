@@ -5,6 +5,7 @@ Este relatório reúne os artefatos e os materiais da SubEquipe 02.
 ## Conteúdo
 
 - [Rich Picture](richpicture.md)
+- [NFR Framework](nfrframework.md)
 - [Engenharia Reversa](Engenharia_reversa.md)
 - [Modelagem BPMN](modelagem_bpmn.md)
 - [Relatório completo](1.1.2.SubEquipe_02.md)
