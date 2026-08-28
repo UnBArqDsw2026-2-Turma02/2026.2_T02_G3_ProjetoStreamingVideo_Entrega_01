@@ -5,18 +5,89 @@
   <title>Document</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta name="description" content="Description">
+  
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar.min.css" />
+  
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+  
+  <style>
+    :root {
+      --theme-color: #5f35bb;
+      --theme-color-dark: #4b239b;
+      --link-color: #5f35bb;
+      --heading-color: #4b239b;
+      --sidebar-border-color: #e1d4ff;
+      --sidebar-nav-link-color: #5f35bb;
+      --sidebar-nav-link-color--active: #4b239b;
+    }
+
+    .markdown-section a,
+    .sidebar-nav a {
+      color: var(--link-color);
+    }
+
+    .markdown-section h1,
+    .markdown-section h2,
+    .markdown-section h3,
+    .markdown-section h4 {
+      color: var(--heading-color);
+    }
+
+    .sidebar {
+      border-right: 1px solid var(--sidebar-border-color);
+    }
+
+    .sidebar-nav li.active > a {
+      color: var(--sidebar-nav-link-color--active);
+    }
+
+    .app-name-link {
+      display: block;
+      width: min(100%, 700px);
+      height: 120px;
+      margin: 12px auto 8px;
+      background-image: url('./assets/ChatGPT%20Image%2027%20de%20ago.%20de%202026,%2000_33_16.png');
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: contain;
+      text-indent: -9999px;
+      overflow: hidden;
+    }
+
+    /* Força a remoção de qualquer seta gerada pelo plugin */
+    .sidebar-nav li.collapse > a::before,
+    .sidebar-nav li.collapse > p::before,
+    .sidebar-nav li.collapse > span::before {
+      display: none !important;
+      content: "" !important;
+    }
+  </style>
 </head>
 <body>
   <div id="app"></div>
+  
   <script>
     window.$docsify = {
       loadSidebar: true,
-      name: 'Repositorio G3-Streaming de Vídeo',
-      repo: 'https://github.com/UnBArqDsw2026-2-Turma02/2026.2_T02_G3_ProjetoStreamingVideo_Entrega_01'
+      name: 'Streaming Video',
+      repo: 'https://github.com/UnBArqDsw2026-2-Turma02/2026.2_T02_G3_ProjetoStreamingVideo_Entrega_01',
+      sidebarDisplayLevel: 1
     }
   </script>
+  
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
+
+  <!-- Script extra para garantir que nenhuma setinha fique visível após carregar -->
+  <script>
+    window.addEventListener('DOMContentLoaded', () => {
+      setTimeout(() => {
+        document.querySelectorAll('.sidebar-nav li.collapse > a, .sidebar-nav li.collapse > p').forEach(el => {
+          el.style.setProperty('--collapse-icon-display', 'none');
+        });
+      }, 500);
+    });
+  </script>
 </body>
 </html>
