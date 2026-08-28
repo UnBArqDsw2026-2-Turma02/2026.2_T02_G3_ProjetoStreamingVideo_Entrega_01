@@ -260,5 +260,6 @@ A pool foi dividida entre **Usuário** e **Sistema**, permitindo visualizar a al
 
 | Versão | Data | Descrição | Autor | Revisor |
 | :---: | :--- | :--- | :--- | :--- |
-| 1.0 | 27/08/2026 | Criação da documentação da modelagem BPMN do cenário “Pesquisar e assistir a um vídeo” | [Lucas Oliveira](https://github.com/dev-LucasDpaula) | [Enzo Menali](https://github.com/menali17) |
+| 1.0 | 27/08/2026 | Criação da documentação da modelagem BPMN do cenário “Pesquisar e assistir a um vídeo” | [Enzo Menali](https://github.com/menali17), [Geovanna Umbelino](https://github.com/GeovannaUmbelino), [Lucas Oliveira](https://github.com/dev-LucasDpaula) e [Paulo Vitor Gomes](https://github.com/gpaulovit)                                             | [Breno Teixeira](https://github.com/BrenoLTeixeira),[Gabriel Diniz](https://github.com/GabrielDiniz12) e [Pedro Américo](https://github.com/dev-americo) |
+| 1.1   | 28/08/2026 | Adicionando Versionamento | [Enzo Menali](https://github.com/menali17), [Geovanna Umbelino](https://github.com/GeovannaUmbelino), [Lucas Oliveira](https://github.com/dev-LucasDpaula) e [Paulo Vitor Gomes](https://github.com/gpaulovit)                                             | [Breno Teixeira](https://github.com/BrenoLTeixeira),[Gabriel Diniz](https://github.com/GabrielDiniz12) e [Pedro Américo](https://github.com/dev-americo) |
 
